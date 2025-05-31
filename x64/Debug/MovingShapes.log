@@ -1,0 +1,19 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol "struct ImGuiIO & __cdecl ImGui::GetIO(void)" (?GetIO@ImGui@@YAAEAUImGuiIO@@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "struct ImGuiStyle & __cdecl ImGui::GetStyle(void)" (?GetStyle@ImGui@@YAAEAUImGuiStyle@@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::Begin(char const *,bool *,int)" (?Begin@ImGui@@YA_NPEBDPEA_NH@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::End(void)" (?End@ImGui@@YAXXZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::SameLine(float,float)" (?SameLine@ImGui@@YAXMM@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::Text(char const *,...)" (?Text@ImGui@@YAXPEBDZZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::Button(char const *,struct ImVec2 const &)" (?Button@ImGui@@YA_NPEBDAEBUImVec2@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::Checkbox(char const *,bool *)" (?Checkbox@ImGui@@YA_NPEBDPEA_N@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::SliderFloat(char const *,float *,float,float,char const *,int)" (?SliderFloat@ImGui@@YA_NPEBDPEAMMM0H@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::SliderInt(char const *,int *,int,int,char const *,int)" (?SliderInt@ImGui@@YA_NPEBDPEAHHH0H@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::InputText(char const *,char *,unsigned __int64,int,int (__cdecl*)(struct ImGuiInputTextCallbackData *),void *)" (?InputText@ImGui@@YA_NPEBDPEAD_KHP6AHPEAUImGuiInputTextCallbackData@@@ZPEAX@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::ColorEdit3(char const *,float * const,int)" (?ColorEdit3@ImGui@@YA_NPEBDQEAMH@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl ImGuiStyle::ScaleAllSizes(float)" (?ScaleAllSizes@ImGuiStyle@@QEAAXM@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl ImGui::SFML::Init(class sf::RenderWindow &,bool)" (?Init@SFML@ImGui@@YA_NAEAVRenderWindow@sf@@_N@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::SFML::ProcessEvent(class sf::Event const &)" (?ProcessEvent@SFML@ImGui@@YAXAEBVEvent@sf@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::SFML::Update(class sf::RenderWindow &,class sf::Time)" (?Update@SFML@ImGui@@YAXAEAVRenderWindow@sf@@VTime@4@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl ImGui::SFML::Render(class sf::RenderWindow &)" (?Render@SFML@ImGui@@YAXAEAVRenderWindow@sf@@@Z) referenced in function main
+C:\Users\Gulra\Desktop\MovingShapes\x64\Debug\MovingShapes.exe : fatal error LNK1120: 17 unresolved externals
